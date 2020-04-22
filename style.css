@@ -1,0 +1,17 @@
+.app {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.new-student-input {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.student-display {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto;
+    grid-gap: 100px;
+}
+
