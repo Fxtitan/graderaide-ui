@@ -1,3 +1,7 @@
+h1 {
+text-align: center;
+}
+
 .app {
     border: 1px solid black;
     margin: 10px;
@@ -10,8 +14,12 @@
 
 .student-display {
     display: grid;
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 100px;
 }
 
+.student-info-last {
+    display: grid;
+    grid-row: auto;
+}
